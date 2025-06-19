@@ -1,0 +1,6 @@
+2025-06-19 09:12:37,392 - buggy_app_logger - ERROR - Critical error in perform_division: Attempted to divide by zero. Numerator: 10, Denominator: 0.
+Traceback (most recent call last):
+  File "D:\Log_Agentops\buggy_app.py", line 35, in perform_division
+    result = numerator / denominator
+             ~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: division by zero
